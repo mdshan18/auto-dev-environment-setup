@@ -1,0 +1,7 @@
+name 'dev_setup'
+maintainer 'Shan'
+maintainer_email 'mdshanjgp@gmail.com'
+license 'MIT'
+description 'Auto Developer Environment Setup Tool'
+version '0.1.0'
+chef_version '>= 18.0'
