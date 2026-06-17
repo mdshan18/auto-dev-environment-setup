@@ -1,4 +1,39 @@
-*.log
-*.tmp
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+env/
+.venv
+
+# Chef
+.chef/
+*.lock.json
+cookbooks/*/vendor/
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Project
+.env
+config.local.py
+test_logs/
